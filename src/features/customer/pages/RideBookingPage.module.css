@@ -1,0 +1,27 @@
+.vehicleRow {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+.vehicleCard {
+  min-width: 112px;
+  border: 1.5px solid var(--line);
+  border-radius: 14px;
+  background: #fff;
+  padding: 12px;
+  text-align: left;
+}
+.vehicleCard.active {
+  border-color: var(--teal);
+  background: var(--teal-soft);
+}
+.vehicleCard b {
+  display: block;
+  font-size: 13px;
+  margin-top: 8px;
+}
+.vehicleCard span {
+  font-size: 11px;
+  color: var(--slate);
+}
